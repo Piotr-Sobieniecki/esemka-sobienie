@@ -1,0 +1,91 @@
+#ifndef MYALIASES_H
+#define MYALIASES_H
+
+//****  DISPLAYS  IDs ****//
+ALIAS(DSP_MAIN,0)
+ALIAS(DSP_STATION,1)
+
+
+//****  TURNOUTS  IDs ****//
+ALIAS(TRN_01,101)
+ALIAS(TRN_02,102)
+ALIAS(TRN_03,103)
+ALIAS(TRN_04,104)
+ALIAS(TRN_05,105)
+ALIAS(TRN_06,106)
+ALIAS(TRN_07,107)
+ALIAS(TRN_08,108)
+ALIAS(TRN_09,109)
+ALIAS(TRN_10,110)
+
+
+
+//****  SIGNALS IDs  ****//
+ALIAS(SH1,120)
+ALIAS(SH1a,121)
+ALIAS(SH1b,122)
+ALIAS(SH1c,123)
+ALIAS(SH1d,124)
+ALIAS(SH2,125)
+ALIAS(SH2a,126)
+
+
+//ALIAS(SIG2_GO,136)
+//SIGNAL(SIG2_GO,137,138)
+
+//ALIAS(SIG2_APP,134)
+//SIGNAL(SIG2_APP,135,0)
+
+//ALIAS(SIG1_1,309)  // Red/Green
+//ALIAS(SIG1_2,310)  // Amber/Green&Amber
+
+/***************************************/
+//****  SENSOR SWITCHES addr  ****//
+ALIAS(BTN1,132)
+//ALIAS(BTN2,133)
+//ALIAS(BTN3,139)
+
+//****  VIRTUAL SWITCHES addr  ****//
+//uses addresses not existing in hardware  0-255
+//ALIAS(CHOOSE_BLK1,61)
+//ALIAS(CHOOSE_BLK2,62)
+
+
+
+//****  OUTPUTS   addr ****//
+//ALIAS(OUT1,134)
+//ALIAS(OUT2,135)
+
+
+
+//****  SENSORS OCCUPANCY  addr ****//
+//ALIAS(SNS1,140)
+
+
+//*******************/
+//*** PROCEDURES ***//
+ALIAS(PROC_BTN1)
+ALIAS(PROC_BTN2)
+//ALIAS(PROC_BTN3)
+ALIAS(PROC_RESET)
+//ALIAS(PROC_SIG2_RED)
+
+
+//*******************/
+//*** ROUTES Ids  **//
+ALIAS(RT_01,1)     //or ALIAS(RT_01)
+ALIAS(PROC_01)     
+ALIAS(RT_02,2)
+
+
+//CV Programming
+ALIAS(PROC_PGM_OPEN) 
+ALIAS(PROC_PGM_CLOSE) 
+
+ALIAS(RT_PGM_OPEN,100) 
+ALIAS(RT_PGM_CLOSE,101) 
+
+ALIAS(RT_PGM_SH5,102) 
+
+
+#endif
